@@ -1,15 +1,15 @@
-const fromDollarToYen = function(valueInDollar){
-    // convertir el valor dado en dolares a yen
-    let valueInYen = valueInDollar * 106.58;
-    //devuelve el valor en yen
-    return valueInYen;
-}
-
 const fromEuroToDollar = function(valueInEuro){
     // convertir el valor dado en euros a dólares
     let valueInDollar = valueInEuro * 1.2;
     //devuelve el valor en dolares
     return valueInDollar;
+}
+
+const fromDollarToYen = function(valueInDollar){
+    // convertir el valor dado en dolares a yen
+    let valueInYen = valueInDollar * 143.19;
+    //devuelve el valor en yen
+    return valueInYen;
 }
 
 const fromYenToPound = function(valueInYen){
